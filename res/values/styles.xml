@@ -2,6 +2,7 @@
 <!--
 /*
 * Copyright (C) 2008 The Android Open Source Project
+* Copyright (C) 2020 Ezio Lacandia Bijelkic
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,12 +17,13 @@
 * limitations under the License.
 */
 -->
-
 <resources>
+
     <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Settings">
         <item name="preferenceTheme">@style/PreferenceTheme</item>
     </style>
 
     <style name="PreferenceTheme" parent="@style/PreferenceThemeOverlay.SettingsBase">
     </style>
+
 </resources>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
  * Copyright (c) 2017, The Android Open Source Project
+ * Copyright (c) 2020, Ezio Lacandia Bijelkic
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,6 +17,7 @@
 */
 -->
 <resources>
+
     <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
                to brightness values; -1 means keeping the current brightness. -->
     <integer-array name="config_doze_brightness_sensor_to_brightness">
@@ -30,4 +32,5 @@
 
     <!-- Defines the custom pocket sensor used by various OEMs like OnePlus-->
     <string name="config_custom_proximity"></string>
+
 </resources>
